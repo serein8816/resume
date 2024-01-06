@@ -1,0 +1,66 @@
+body {
+    font-family: monospace, Consolas, 'Lucida Console', 'Source Code Pro', 'Courier New', sans-serif, serif, cursive, fantasy;
+}
+
+p {
+    font-size: 14px;
+}
+
+.p-like {
+    font-size: 14px;
+}
+
+.subtitle {
+    font-size: 17px;
+}
+
+code {
+    color: #999999;;
+    border-radius: 3px;
+    font-family: monospace, Courier, 'Courier New', sans-serif;
+}
+
+.p-like a code {
+    padding: 0px 2px 0px 2px;
+    background-color: #222222;
+}
+
+.p-like a #report {
+    padding: 0px 2px 0px 2px;
+}
+
+.hint-tag {
+    color: white;
+    border-radius: 5px;
+    background-color: #cccccc;
+    padding: 2px 5px 2px 5px;
+}
+
+.code-link {
+    text-decoration: none;
+}
+
+
+.code-link code {
+    color: lightgreen;
+}
+
+.code-link #report {
+    color: red;
+    border-radius: 3px;
+    border: solid 1px black;
+}
+
+#programming-languages {
+    vertical-align: middle;
+    /* 设置垂直对齐方式为居中 */
+}
+
+#programming-languages a img {
+    vertical-align: middle;
+}
+
+#programming-languages img {
+    height: 20px;
+    width: auto;
+}
